@@ -1,0 +1,100 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    
+    font-family: "Baloo Tamma 2", cursive;
+   background-color: #c32148;
+   text-decoration: none;
+}
+
+/* main heading font */
+.m-heading {
+    font-family: "roboto slab",serif;
+
+}
+
+.navigation-link {
+    border: 2px solid transparent;
+    
+}
+
+.navigation-link:hover {
+    
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.5s ease;
+    text-decoration: none;
+
+}
+
+.main-container {
+    min-height: 100vh;
+}
+
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_row h1{
+    font-size: 4rem;
+    animation: MoveInLeft 1s;
+    backface-visibility: hidden;
+}
+
+.main_row{
+    width: auto;
+    height: 100vh;
+}
+
+
+@keyframes MoveInLeft{
+    0% {
+         opacity: 0;
+         transform: translate(-100px);
+    }
+    80%{
+        transform: translate(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+} 
+
+#about{
+     background-color: #c72c48;
+     border-radius: 0.5rem;
+}
+#Contact{
+    background: #c72c48;
+    border-radius: 0.5rem;
+}
+.media_link{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
